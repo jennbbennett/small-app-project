@@ -1,0 +1,27 @@
+body {
+  background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSLbY9DcjtOgDl1o5ROuudzIgvEcEtEvh5bpx7CF1iBlDwGiqBv6g');
+}
+
+.text-left{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  font-family: Roboto;
+}
+
+.text #text-input {
+  font-family: Roboto;
+}
+
+#basic-addon2 {
+  background-color:#93E2D5;
+}
+
+.jumbotron{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#window {
+  background-color:#E8D0A9;
+}

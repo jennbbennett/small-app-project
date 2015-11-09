@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Quote of the Day</title>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+</head>
+<body class="custom">
+  <div class="container">
+    <div class="page-header">
+      <h1 class="text-left" class="text">Finding Just the Right Words...</h1>
+    </div>
+    <div class="jumbotron" id="window">
+      <h1 class="text">Quote of the day....</h1>
+      <p class="text">Need some inspiration?  Motivation?  Words for a greeting card?  Start here to search for a quote matching your keyword.  Deep thoughts are not guaranteed...</p>
+
+      <div class="input-group">
+        <input type="text" id="text-input" class="form-control" placeholder="Search for keyword..." aria-describedby="basic-addon2">
+        <span class="input-group-addon" id="basic-addon2">Bring me some fancy words!</span>
+      </div>
+    </div>
+    <div class="panel panel-default" id="window">
+      <div class="panel-body" id="quote-panel" display="none">
+        <div class="well well-sm">
+          <strong class="text" id="title"></strong>
+        </div>
+        <div class="well well-sm">
+          <div class="text" id="quote" ></div>
+        </div>
+      </div>
+      <div class="panel-body" id="error-panel" display="none">
+        <div class="well well-sm">
+          <div class="text" id="error"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
